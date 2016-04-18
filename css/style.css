@@ -1,0 +1,75 @@
+/*  
+	lightblue : #1aaa8f;
+	darkblue : #17323d;
+*/
+.load { position: fixed; background: url('img/load.gif') center center; width: 100%; height: 100%; z-index: 99999; }
+
+*{ padding: 0; margin: 0; box-sizing: border-box;}
+.header{ width: 100%; height: 100vh; position: relative; padding-top: -170px; background: url('img/header-bg.jpg') center center; background-attachment: fixed; background-size: cover; }
+.header #header-text { text-align: center; margin-right: auto; margin-left: auto; padding-top: 170px; }
+.header #header-text h1{ color: #fff; font-weight: bolder; font-size: 120px; letter-spacing: 10px; }
+.header #header-text h1 span{ color: #fff; font-weight: normal; font-size: 100px; letter-spacing: 15px; }
+
+.x-button { z-index: 9999; width: 5%; height: 10%; position: fixed; left: 375px; background: url('img/x.png') center center no-repeat; cursor: pointer; top: -250px; }
+.x-button:hover { width: 5%; height: 65px; background: url('img/x-hover.png') center center no-repeat; }
+.menu {z-index: 9999;  position: fixed; top: 0; left: 0; width: 5%; height: 65px; cursor: pointer; background: url('img/menu.png') center center;}
+.menu:hover{ background: url('img/menu-hover.png') center center; }
+.menu-items { z-index: 9999; margin: 0px; padding: 0px; position: fixed; top: 0; left: -300px; width: 300px; height: auto; background: #17323d; }
+.menu-items ul { margin:0px;  list-style: none; padding: 0px; }
+.menu-items ul li { padding-left: 0px; margin-left: 0px; padding-top: 10px; padding-bottom: 10px; text-align: center; font-size: 22px; transition: all .3s ease-in-out; }
+.menu-items ul li:hover { background: #1aaa8f;}
+.menu-items ul a { color: #fff; }
+.menu-items ul a:hover { text-decoration: none; }
+.second { width: 100%; height: 350px; background: #17323d; text-align: center; margin-top: -20px;}
+.second h1 { opacity: 0; width: 75%; height: 100px; font-size: 44px; margin-left: auto; margin-right: auto; padding-top: 75px; color: #fff; letter-spacing: 10px; font-weight: bold;}
+.second h1:nth-child(2){ padding-top: 8px; padding-bottom: 8px; }
+.second h3 { opacity: 0; width: 70%; text-align: center; margin-right: auto; margin-left: auto; margin-top: -20px; color: #1aaa8f; font-size: 175%; }
+
+.third { height: 700px; width: 100%; background-color: #17323d; overflow: hidden;}
+.third .r {padding-left: 0px; padding-right: 0px; }
+.third .r img { opacity: 0; max-width: 100%; width: 100%; height: 375px; max-height: 375px; position: relative; left: -50px; transition: all .3s ease-in-out; }
+.third .r img:hover { transform: scale(1.1); cursor: pointer; }
+.third .r h1 { text-transform: uppercase; text-align: center; color:#fff; letter-spacing: 6px; font-weight: bolder; font-size: 43px;}
+.third .r h3 { width: 80%; margin-left: auto; margin-right: auto; text-transform: uppercase; text-align: center; color:#fff; font-size: 20px; }
+.third .r button { transition: all .3s ease-in-out; margin-top: 20px; width: 150px; height: 45px; position: relative; margin-left: 35%; border: none; background: #1aaa8f; color: #fff; text-align: center; }
+.third .r:nth-child(2) button { background: #C4C282; transition: all .3s ease-in-out; }
+.third .r:nth-child(3) button { background: #D65C5E; transition: all .3s ease-in-out; }
+.third .r button:hover { background: #fff; color: #1aaa8f; }
+.third .r .text { z-index: 100; height: 425px; background: #17323d; margin-top: -20px; position: relative; padding-top: 10px;}
+.third .r .img { width: 450px; height: 375px; position: relative; z-index: 10; overflow: hidden;}
+
+.four { padding-left: 100px; padding-right: 110px; height: 600px; background: url('img/img5.png') center center; background-size: cover; padding-top: 20px; }
+.four h1 { opacity: 0; color: #fff; text-transform: uppercase; text-align: center; font-weight: bold; font-size: 43px;}
+.four h2 span { opacity: 0; width: 8%; height: 100%; float: left; font-size: 300%; color: #fff; }
+.four h2 a{ opacity: 0; text-transform: uppercase; padding-left: 17px; padding-top: 10px; height: 100%; width: 92%; float: left; color: #D1B977; font-size: 18px; line-height: 30px; padding-bottom: 20px;}
+.four .t:nth-child(3) h2 a { color: #1aaa8f; }
+.four .t:nth-child(4) h2 a { color: #DECF5D; }
+.four .t:nth-child(5) h2 a { color: #D65C5E; }
+.four p { opacity: 0; height: 100%; text-align: left; padding-left: 65px; color: #99ACE0; }
+
+.five { margin-top: -20px; height: 500px; background: url('img/img4.jpg') center center; background-attachment: fixed; background-size: cover; }
+.five h1 { opacity: 0; width: 60%; height: 100px; margin-right: auto; margin-left: auto; padding-top: 150px; font-weight: bold; text-align: center; color: #fff; font-size: 52px; text-transform: uppercase; line-height: 62px; }
+.five p { opacity: 0; width: 80%; text-align: center; text-transform: uppercase; padding-top: 168px; color: #fff; font-size: 23px; margin-left: auto; margin-right: auto;}
+
+.six { background:url('img/img5.png') center center; background-size: cover; height: auto; padding: 100px; }
+.six h1 { padding-bottom: 35px; color: #fff; text-transform: uppercase; text-align: center; font-size: 45px; font-weight: bolder; }
+.s:first {  display: inline-block; float: left; padding: 50px 0px 0px 0px; max-height: 100%; }
+.s { display: inline-block; padding: 0px 0px; float: left; margin-top: -10px; max-height: 100%; max-height: 100%; position: relative; top: 0; left: 0;}
+.s:nth-child(4) { display: inline-block; position: relative; top: 0; }
+.s .six-img { max-width: 100%; width: 100%; max-height: 450px; height: 450px; overflow: hidden; }
+.s .six-img img { max-width: 100%; width: 100%; height: 100%; transition: all .3s ease-in-out; }
+.s .six-img img:hover { transform: scale(1.1); cursor: pointer; }
+.s .six-text { width: 100%; height: auto; padding: 0px 15px 0px 17px; margin-top: -20px; background: #17323d; }
+.s:nth-child(3) .six-text { background: #47CCCC; }
+.s:nth-child(3) .six-text p { color: #B8E0E0; }
+.s:nth-child(4) .six-text { background: #D4C494; }
+.s:nth-child(4) .six-text p { color: #17323d; }
+.s:nth-child(4) .six-text h1 a { color: #17323d; }
+.s:nth-child(6) .six-text { background: #D6564D; }
+.s:nth-child(6) .six-text p { color: #fff; }
+
+
+.s .six-text h1 { line-height: 20px; text-align: left;}
+.s .six-text h1 a { color: #fff; font-size: 21px; padding: 0px;}
+.s .six-text h1 a:hover { text-decoration: none;}
+.s .six-text p { color: #6F88B3; padding: 10px 8px 20px 6px; line-height: 24px; }
